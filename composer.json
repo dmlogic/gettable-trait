@@ -1,0 +1,9 @@
+{
+    "name": "dmlogic/gettable-trait",
+    "description": "Useful trait for easy getting and setting with mutators",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.4"
+    }
+}
