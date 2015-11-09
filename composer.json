@@ -1,9 +1,16 @@
 {
     "name": "dmlogic/gettable-trait",
     "description": "Useful trait for easy getting and setting with mutators",
+    "keywords": ["getter","setter","mutator","trait"],
+    "homepage": "https://github.com/dmlogic/gettable-trait",
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dmlogic\\Traits\\": "src/"
+        }
     }
 }
