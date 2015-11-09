@@ -1,8 +1,6 @@
 <?php
 
-namespace Pie\Services\Traits;
-
-use Illuminate\Support\Str;
+namespace Dmlogic\Traits;
 
 trait Gettable {
 
