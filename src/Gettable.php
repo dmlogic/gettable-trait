@@ -39,7 +39,7 @@ trait Gettable {
     private function enforceGettable()
     {
         if(!property_exists($this,'data')) {
-            throw new \Exception('$gettable not present');
+            throw new \Exception('$data not present');
         }
     }
 
