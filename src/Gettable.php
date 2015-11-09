@@ -53,7 +53,7 @@ trait Gettable {
         $this->set($key,$value);
     }
 
-    private function mutatorNamer($key,$type)
+    private function mutatorName($key,$type)
     {
         return $type.ucwords(str_replace(['-', '_'], ' ', $key)).'Attribute';
     }
