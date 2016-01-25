@@ -4,6 +4,15 @@ namespace Dmlogic\Traits;
 
 trait Gettable {
 
+    public function setAttributes($attributes)
+    {
+        $attributes = (array) $attributes;
+
+        foreach($attributes as $key => $value) {
+            $this->set($key,$value);
+        }
+    }
+
     public function set($key,$value)
     {
         $this->enforceGettable();
